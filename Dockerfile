@@ -27,6 +27,6 @@ RUN chmod +x /usr/local/bin/newnym.sh
 ADD haproxy.cfg.erb /usr/local/etc/haproxy.cfg.erb
 ADD uncachable /etc/polipo/uncachable
 
-EXPOSE 5566 4444
+EXPOSE 5566 1936
 
 CMD /usr/local/bin/start.rb
